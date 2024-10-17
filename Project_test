@@ -1,0 +1,20 @@
+PROBLEMS WITH THE CODE RIGHT NOW:
+
+1.We are still getting segmentation faults for some reason, it has to do with the import
+statement and importing the yfinance and pandas libraries
+
+
+SEQUENCE OF PROJECT:
+1. Authenticate with the Open AI API key
+2. Define and create all of the functions that we want to use
+3. Define these functions that exist by creating a list of dictionaries
+4. Map the function names to the actual functions 
+5. Create streamlit web application calls process to pass information in to and from the Open AI API
+6. Take in the inputs and identify what functions to call and pass in the arguments
+7. Take outputs produced by functions and run them through OpenAI API and bring back responses
+
+
+REMAINING STEPS FOR COMPLETION:
+1. Fix import statement issues
+2. Run couple tests
+3. Publish to gitHub and add on resume
